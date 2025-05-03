@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "eats text and json and gives that text in that json format"
 authors = ["Prakhar Jaiman <prakharjaiman@github.com>"]
 readme = "README.md"
+packages = [{include = "json_extractor"}]
 
 [tool.poetry.dependencies]
 python = "3.13.3"
