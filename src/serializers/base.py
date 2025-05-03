@@ -36,6 +36,7 @@ class ToolCall(BaseModel):
     def make_new_call_id(cls):
         return f"call_{uuid4().hex[:24]}"
 
+
 class SystemMessage(BaseModel):
     role: str = Role.system.name
     content: str
